@@ -15,12 +15,17 @@
 # The program also allows for 3D viewing of all of the stars that
 # have known exoplanets, allowing the relative distances
 # between the various systems to be view.
-#
-# This program was written in 2013. Its comments are less
+# 
+#This program was written in 2013. Its comments are less
 # extensive than they should have been, and code I write
 # for a company today would pay far more attention to the
 # need for other people to be able to easily understand
 # what is going on in my code.
+#
+# Likewise, this code is not well organized.
+# It is largely in this portfolio because it is one of the
+# largest / most complicated solo projects I have done.
+# I may clean up this code in the future.
 ######################################################
 
 from math import *
