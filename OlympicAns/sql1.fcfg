@@ -1,0 +1,131 @@
+## Natural Language Toolkit: sql.fcfg
+##
+## Deliberately naive string-based grammar for
+## deriving SQL queries from English
+##
+## Author: Ewan Klein <ewan@inf.ed.ac.uk>
+## URL: <http://nltk.sourceforge.net>
+## For license information, see LICENSE.TXT
+##
+## $Id$
+
+
+% start S
+
+S[SEM=(?sbarq + ?dot)] -> SBARQ[SEM=?sbarq] DOT[SEM=?dot]
+S[SEM=(?sbarq)] -> SBARQ[SEM=?sbarq]
+
+SBARQ[SEM=(?vbd + ?np + ?vp)] -> VBD[SEM=?vbd] NP[SEM=?np] VP[SEM=?vp]
+SBARQ[SEM=(?sq)] -> SQ[SEM=?sq]
+SBARQ[SEM=(?whnp + ?sq)] -> WHNP[SEM=?whnp] SQ[SEM=?sq]
+
+WHNP[SEM=(?wp)] -> WP[SEM=?wp]
+
+SQ[SEM=(?vbd + ?np)] -> VBD[SEM=?vbd] NP[SEM=?np]
+SQ[SEM=(?vbd + ?adjp)] -> VBD[SEM=?vbd] ADJP[SEM=?adjp]
+SQ[SEM=(?vbd + ?np + ?adjp)] -> VBD[SEM=?vbd] NP[SEM=?np] ADJP[SEM=?adjp] 
+
+VP[SEM=(?vb + ?np)] -> VB[SEM=?vb] NP[SEM=?np]
+VP[SEM=(?vb + ?adjp)] -> VB[SEM=?vb] ADJP[SEM=?adjp]
+
+ADJP[SEM=(?jj + ?pp)] -> JJ[SEM=?jj] PP[SEM=?pp]
+
+PP[SEM=(?in + ?np)] -> IN[SEM=?in] NP[SEM=?np]
+
+NP[SEM=(?nn)] -> NN[SEM=?nn]
+NP[SEM=(?nnp)] -> NNP[SEM=?nnp]
+NP[SEM=(?np + ?nn)] -> NP[SEM=?nnp] NN[SEM=?nn]
+NP[SEM=(?np + ?pp)] -> NP[SEM=?np] PP[SEM=?pp]
+NP[SEM=(?dt + ?jj + ?nn)] -> DT[SEM=?dt] JJ[SEM=?jj] NN[SEM=?nn]
+NP[SEM=(?dt + ?jj + ?cd + ?nn)] -> DT[SEM=?dt] JJ[SEM=?jj] CD[SEM=?cd] NN[SEM=?nn]
+NP[SEM=(?dt + ?cd + ?nn)] -> DT[SEM=?dt] CD[SEM=?cd] NN[SEM=?nn]
+NP[SEM=(?dt + ?nnp + ?nn)] -> DT[SEM=?dt] NNP[SEM=?nnp] NN[SEM=?nn]
+
+
+NNP[SEM='winner="ligety" AND'] -> 'Ligety'
+NNP[SEM='winner="missillier" AND'] -> 'Missillier'
+NNP[SEM='winner="pinturault" AND'] -> 'Pinturault'
+NNP[SEM='winner="bjoergen" AND'] -> 'Bjoergen'
+NNP[SEM='winner="johaug" AND'] -> 'Johaug'
+NNP[SEM='winner="steira" AND'] -> 'Steira'
+NNP[SEM='winner="matt" AND'] -> 'Matt'
+NNP[SEM='winner="hirscher" AND'] -> 'Hirscher'
+NNP[SEM='winner="kristoffersen" AND'] -> 'Kristoffersen'
+NNP[SEM='winner="hoefl-riesch" AND'] -> 'Hoefl-riesch'
+NNP[SEM='winner="hosp" AND'] -> 'Hosp'
+NNP[SEM='winner="mancuso" AND'] -> 'Mancuso'
+NNP[SEM='winner="vogt" AND'] -> 'Vogt'
+NNP[SEM='winner="iraschko-stolz" AND'] -> 'Iraschko-stolz'
+NNP[SEM='winner="mattel" AND'] -> 'Mattel'
+NNP[SEM='winner="kuzmina" AND'] -> 'Kuzmina'
+NNP[SEM='winner="vilukhina" AND'] -> 'Vilukhina'
+NNP[SEM='winner="semerenko" AND'] -> 'Semerenko'
+NNP[SEM='winner="mulder" AND'] -> 'Mulder'
+NNP[SEM='winner="davis" AND'] -> 'Davis'
+NNP[SEM='winner="white" AND'] -> 'White'
+NNP[SEM='winner="virtue" AND'] -> 'Virtue'
+NNP[SEM='winner="ilinykh" AND'] -> 'Ilinykh'
+NNP[SEM='winner="katsalapov" AND'] -> 'Katsalapov'
+NNP[SEM='winner="hamelin" AND'] -> 'Hamelin'
+NNP[SEM='winner="han" AND'] -> 'Han'
+NNP[SEM='winner="an" AND'] -> 'An'
+NNP[SEM='winner="smeekens" AND'] -> 'Smeekens'
+NNP[SEM='winner="morrison" AND'] -> 'Morrison'
+NNP[SEM='winner="groothuis" AND'] -> 'Groothuis'
+NNP[SEM='winner="stoch" AND'] -> 'Stoch'
+NNP[SEM='winner="prevc" AND'] -> 'Prevc'
+NNP[SEM='winner="bardal" AND'] -> 'Bardal'
+NNP[SEM='winner="bjoerndalen" AND'] -> 'Bjoerndalen'
+NNP[SEM='winner="landertinger" AND'] -> 'Landertinger'
+NNP[SEM='winner="soukup" AND'] -> 'Soukup'
+
+JJ[SEM='nationality="netherlands" AND'] -> 'Dutch'
+JJ[SEM='nationality="usa" AND'] -> 'American'
+JJ[SEM='nationality="france" AND'] -> 'French'
+JJ[SEM='nationality="canada" AND'] -> 'Canadian'
+JJ[SEM='nationality="norway" AND'] -> 'Norwegian'
+JJ[SEM='nationality="russia" AND'] -> 'Russian'
+JJ[SEM='nationality="china" AND'] -> 'Chinese'
+JJ[SEM='nationality="austria" AND'] -> 'Austrian'
+JJ[SEM='nationality="germany" AND'] -> 'German'
+JJ[SEM='nationality="ukraine" AND'] -> 'Ukrainian'
+JJ[SEM='nationality="czech republic" AND'] -> 'Czech'
+JJ[SEM='nationality="poland" AND'] -> 'Polish'
+JJ[SEM='nationality="slovenia" AND'] -> 'Slovenian'
+JJ[SEM='nationality="slovakia" AND'] -> 'Slovakian'
+
+NN[SEM='medal="gold" AND'] -> 'gold'
+NN[SEM='medal="silver" AND'] -> 'silver'
+NN[SEM='medal="bronze" AND'] -> 'bronze'
+NN[SEM='gender="M" AND'] -> 'man'
+NN[SEM='gender="F" AND'] -> 'woman'
+
+JJ[SEM='medal="gold" AND'] -> 'first'
+JJ[SEM='medal="silver" AND'] -> 'second'
+JJ[SEM='medal="bronze" AND'] -> 'third'
+
+NN[SEM='competitions.name="speedskating"'] -> 'speedskating?' | 'speedskating' | 'speed skating?'
+NN[SEM='competitions.name="skijumping"'] -> 'skijumping?' | 'skijumping' | 'ski jumping?'
+NN[SEM='competitions.name="shorttrack"'] -> 'shorttrack?' | 'shorttrack' | 'short track?'
+NN[SEM='competitions.name="icedancing"'] -> 'icedancing?' | 'icedancing' | 'ice dancing?' | 'figureskating?'
+NN[SEM='competitions.name="giantslalom"'] -> 'giantslalom?' | 'giantslalom' | 'giant slalom?'
+NN[SEM='competitions.name="biathlon"'] -> 'biathlon?' | 'biathlon'
+NN[SEM='competitions.name="crosscountry"'] -> 'crosscountry?' | 'crosscountry' | 'cross country?'
+NN[SEM='competitions.name="slalom"'] -> 'slalom?' | 'slalom'
+NN[SEM='competitions.name="super-combined"'] -> 'super-combined?' | 'super-combined'
+
+
+CD[SEM='type="1000" AND'] -> '1000' | '1000m'
+CD[SEM='type="10000" AND'] -> '10000' | '10000m' | '10,000m'
+CD[SEM='type="500" AND'] -> '500' | '500m'
+CD[SEM='type="1500" AND'] -> '1500' | '1500m'
+CD[SEM='type="7500" AND'] -> '7500' | '7500m'
+CD[SEM='type="nh" AND'] -> 'nh' | 'normal hill' | 'individual normal hill'
+CD[SEM='type="lh" AND'] -> 'lh' | 'large hill' | 'individual large hill'
+
+WP[SEM=''] -> 'Who'
+VB[SEM=''] -> 'win' | 'arrive'
+VBD[SEM=''] -> 'Did' | 'arrived' | 'won'
+DT[SEM='']-> 'the' | 'an' | 'a'
+IN[SEM='']-> 'in'
+DOT[SEM='']-> '?'

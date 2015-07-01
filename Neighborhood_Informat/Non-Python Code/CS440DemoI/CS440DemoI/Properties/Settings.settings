@@ -1,0 +1,234 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="CS440DemoI.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="IsInEnglish" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="TitleEnglish" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Neighborhood Informant</Value>
+    </Setting>
+    <Setting Name="TitleSpanish" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Informante Barrio</Value>
+    </Setting>
+    <Setting Name="SearchHKM" Type="System.String" Scope="User">
+      <Value Profile="(Default)">none</Value>
+    </Setting>
+    <Setting Name="SearchHK" Type="System.String" Scope="User">
+      <Value Profile="(Default)">S</Value>
+    </Setting>
+    <Setting Name="SettingsLabelEnglish" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Settings</Value>
+    </Setting>
+    <Setting Name="SettingsLabelSpanish" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Ajustes</Value>
+    </Setting>
+    <Setting Name="SettingsEngRadioEnglish" Type="System.String" Scope="User">
+      <Value Profile="(Default)">English</Value>
+    </Setting>
+    <Setting Name="SettingsEngRadioSpanish" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Inglés</Value>
+    </Setting>
+    <Setting Name="SettingSpaRadioEnglish" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Spanish</Value>
+    </Setting>
+    <Setting Name="SettingSpaRadioSpanish" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Español</Value>
+    </Setting>
+    <Setting Name="SettingsLangGBHEnglish" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Language</Value>
+    </Setting>
+    <Setting Name="SettingsLangGBHSpanish" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Idioma</Value>
+    </Setting>
+    <Setting Name="SettingsHotKeyGBHEnglish" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Hot Keys</Value>
+    </Setting>
+    <Setting Name="SettingsHotKeyGBHSpanish" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Teclas de acceso rápido</Value>
+    </Setting>
+    <Setting Name="SettingsApplyBtnEnglish" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Apply Settings</Value>
+    </Setting>
+    <Setting Name="SettingsApplyBtnSpanish" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Aplicar configuración</Value>
+    </Setting>
+    <Setting Name="HomeSearchBtnTTEnglish" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Search</Value>
+    </Setting>
+    <Setting Name="HomeSearchBtnTTSpanish" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Búsqueda</Value>
+    </Setting>
+    <Setting Name="SettingsHKESearchEnglish" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Search</Value>
+    </Setting>
+    <Setting Name="SettingsHKESearchSpanish" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Búsqueda</Value>
+    </Setting>
+    <Setting Name="HomeMapBtnTTEnglish" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Map</Value>
+    </Setting>
+    <Setting Name="HomeMapBtnTTSpanish" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Mapa</Value>
+    </Setting>
+    <Setting Name="HomeSettBtnTTEnglish" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Settings</Value>
+    </Setting>
+    <Setting Name="HomeSettBtnTTSpanish" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Ajustes</Value>
+    </Setting>
+    <Setting Name="HomeHelpBtnTTEnglish" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Help</Value>
+    </Setting>
+    <Setting Name="HomeHelpBtnTTSpanish" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Ayudar</Value>
+    </Setting>
+    <Setting Name="HomeHKM" Type="System.String" Scope="User">
+      <Value Profile="(Default)">none</Value>
+    </Setting>
+    <Setting Name="HomeHK" Type="System.String" Scope="User">
+      <Value Profile="(Default)">H</Value>
+    </Setting>
+    <Setting Name="SettingsHKEHomeEnglish" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Home</Value>
+    </Setting>
+    <Setting Name="SettingsHKEHomeSpanish" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Casa</Value>
+    </Setting>
+    <Setting Name="MapHKM" Type="System.String" Scope="User">
+      <Value Profile="(Default)">none</Value>
+    </Setting>
+    <Setting Name="MapHK" Type="System.String" Scope="User">
+      <Value Profile="(Default)">M</Value>
+    </Setting>
+    <Setting Name="SettingsHKEMapEnglish" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Map</Value>
+    </Setting>
+    <Setting Name="SettingsHKEMapSpanish" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Mapa</Value>
+    </Setting>
+    <Setting Name="HelpHKM" Type="System.String" Scope="User">
+      <Value Profile="(Default)">none</Value>
+    </Setting>
+    <Setting Name="HelpHK" Type="System.String" Scope="User">
+      <Value Profile="(Default)">P</Value>
+    </Setting>
+    <Setting Name="SettingsHKEHelpEnglish" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Help</Value>
+    </Setting>
+    <Setting Name="SettingsHKEHelpSpanish" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Ayudar</Value>
+    </Setting>
+    <Setting Name="SettingsHKESettingsEnglish" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Settings</Value>
+    </Setting>
+    <Setting Name="SettingsHKESettingsSpanish" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Ajustes</Value>
+    </Setting>
+    <Setting Name="SettingsHKM" Type="System.String" Scope="User">
+      <Value Profile="(Default)">none</Value>
+    </Setting>
+    <Setting Name="SettingsHK" Type="System.String" Scope="User">
+      <Value Profile="(Default)">T</Value>
+    </Setting>
+    <Setting Name="SearchByGBHEnglish" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Search By</Value>
+    </Setting>
+    <Setting Name="SearchByGBHSpanish" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Búsqueda por</Value>
+    </Setting>
+    <Setting Name="SearchCommRadioEnglish" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Community</Value>
+    </Setting>
+    <Setting Name="SearchCommRadioSpanish" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Comunidad</Value>
+    </Setting>
+    <Setting Name="SearchBlockRadioEnglish" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Block</Value>
+    </Setting>
+    <Setting Name="SearchBlockRadioSpanish" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Bloque</Value>
+    </Setting>
+    <Setting Name="SearchCurrentGBHEnglish" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Current Search Options</Value>
+    </Setting>
+    <Setting Name="SearchCurrentGBHSpanish" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Opciones Seach actuales</Value>
+    </Setting>
+    <Setting Name="SearchSaveCurBtnEnglish" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Save Current Search</Value>
+    </Setting>
+    <Setting Name="SearchSaveCurBtnSpanish" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Guardar actual Searh</Value>
+    </Setting>
+    <Setting Name="SearchLoadCurBtnEnglish" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Load Selected Saved Search</Value>
+    </Setting>
+    <Setting Name="SearchLoadCurBtnSpanish" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Load Selected búsqueda guardada</Value>
+    </Setting>
+    <Setting Name="SearchExportGBHEnglish" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Export / Import Search Results</Value>
+    </Setting>
+    <Setting Name="SearchExportGBHSpanish" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Exportación / Importación Resultados</Value>
+    </Setting>
+    <Setting Name="SearchExportBtnEnglish" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Export Results</Value>
+    </Setting>
+    <Setting Name="SearchExportBtnSpanish" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Exportar resultados</Value>
+    </Setting>
+    <Setting Name="SearchResultsLabelEnglish" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Search results:</Value>
+    </Setting>
+    <Setting Name="SearchResultsLabelSpanish" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Resultados de búsqueda:</Value>
+    </Setting>
+    <Setting Name="HelpHelpLabelEnglish" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Help</Value>
+    </Setting>
+    <Setting Name="HelpHelpLabelSpanish" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Ayudar</Value>
+    </Setting>
+    <Setting Name="SearchImportBtnEnglish" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Import Results</Value>
+    </Setting>
+    <Setting Name="SearchImportBtnSpanish" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Importar resultados</Value>
+    </Setting>
+    <Setting Name="MapMapLabelEnglish" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Neighborhood Map</Value>
+    </Setting>
+    <Setting Name="MapMapLabelSpanish" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Mapa barrio</Value>
+    </Setting>
+    <Setting Name="SearchRefineGBHEnglish" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Refine Search By Statistics</Value>
+    </Setting>
+    <Setting Name="SearchRefineGBHSpanish" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Filtrar búsqueda Por Estadísticas</Value>
+    </Setting>
+    <Setting Name="SearchExpanderHEnglish" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Advanced Options</Value>
+    </Setting>
+    <Setting Name="SearchExpanderHSpanish" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Opciones avanzadas</Value>
+    </Setting>
+    <Setting Name="SearchShowTopTBEnglish" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Show top statistic results:</Value>
+    </Setting>
+    <Setting Name="SearchShowTopTBSpanish" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Mostrar los resultados estadísticos:</Value>
+    </Setting>
+    <Setting Name="SearchShowTopValue" Type="System.String" Scope="User">
+      <Value Profile="(Default)">5</Value>
+    </Setting>
+    <Setting Name="SearchByStatRadioEnglish" Type="System.String" Scope="User">
+      <Value Profile="(Default)">By Statistic</Value>
+    </Setting>
+    <Setting Name="SearchByStatRadioSpanish" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Por Estadística</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
