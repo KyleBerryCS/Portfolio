@@ -1,7 +1,6 @@
 ######################################################
-#
-# The project builds upon the initial framework 
-# developed by Andrew Johnson for use by his students. 
+# This program builds upon the initial framework 
+# developed by Andrew Johnson. 
 # Copyright 2013 Andrew Johnson, evl, uic
 # 
 # The vast majority of this code was written by Kyle Berry,
